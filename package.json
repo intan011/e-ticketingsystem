@@ -3,6 +3,7 @@
       "version": "0.1.0",
       "private": true,
       "dependencies": {
+            "@netlify/functions": "^4.2.2",
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
             "@radix-ui/react-aspect-ratio": "^1.1.2",
@@ -63,13 +64,12 @@
             "vite": "^5.4.19"
       },
       "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "start:dev": "ts-node index.ts",
-      "start": "node dist/index.js",
-      "build:backend": "tsc"
-       },
-       
+            "dev": "vite",
+            "build": "vite build",
+            "start:dev": "ts-node index.ts",
+            "start": "node dist/index.js",
+            "build:backend": "tsc"
+      },
       "engines": {
             "node": "20.x",
             "npm": "10.x"
